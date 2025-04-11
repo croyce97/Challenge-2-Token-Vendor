@@ -9,7 +9,7 @@ const main = async () => {
   console.log('\n\n 📡 Deploying...\n');
 
   const yourToken = await deploy('YourToken');
-  // const result = await yourToken.transfer('0xafDD110869ee36b7F2Af508ff4cEB2663f068c6A', utils.parseEther('1000'));
+  // const result = await  yourToken.transfer('0xafDD110869ee36b7F2Af508ff4cEB2663f068c6A', utils.parseEther('1000'));
 
   //Todo: deploy the vendor
   const vendor = await deploy('Vendor', [yourToken.address]);

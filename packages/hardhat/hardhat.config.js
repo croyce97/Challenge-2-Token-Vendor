@@ -13,7 +13,7 @@ const {isAddress, getAddress, formatUnits, parseUnits} = utils;
       check out `packages/scripts/deploy.js` to customize your deployment
 
       out of the box it will auto deploy anything in the `contracts` folder and named *.sol
-      plus it will use *.args for constructor args
+      p lus it will use *.args for constructor args
 */
 
 //

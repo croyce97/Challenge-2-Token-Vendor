@@ -25,7 +25,7 @@ describe('Staker dApp', () => {
     YourTokenFactory = await ethers.getContractFactory('YourToken');
     tokenContract = await YourTokenFactory.deploy();
 
-    // Deploy Staker Contract
+    // Deploy  Staker Contract
     const VendorContract = await ethers.getContractFactory('Vendor');
     vendorContract = await VendorContract.deploy(tokenContract.address);
 

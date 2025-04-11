@@ -8,6 +8,7 @@
     "workspaces",
     "yarn"
   ],
+  
   "private": true,
   "scripts": {
     "react-app:build": "yarn workspace @scaffold-eth/react-app build --max-old-space-size=12288",
